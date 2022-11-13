@@ -1,0 +1,21 @@
+name: "e2e"
+backend: "python"
+max_batch_size: 16
+
+input [
+  {
+    name: "INPUT0"
+    data_type: TYPE_STRING
+    dims: [ 1 ]
+    
+  }
+]
+output [
+  {
+    name: "SENT_EMBED"
+    data_type: TYPE_FP32
+    dims: [ 384 ]
+  }
+]
+
+instance_group [{ kind: KIND_GPU }]
