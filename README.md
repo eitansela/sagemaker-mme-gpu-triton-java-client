@@ -1,4 +1,4 @@
-# Run Multiple Models on the Same GPU with Amazon SageMaker Multi-Model Endpoints Powered by NVIDIA Triton Inference Server with Java Client App
+# Run Multiple Models on the Same GPU with Amazon SageMaker Multi-Model Endpoints Powered by NVIDIA Triton Inference Server with a Java Client App
 
 Amazon SageMaker multi-model endpoints (MMEs) provide a scalable and cost-effective way to deploy a large number of deep learning models. MMEs are a popular hosting choice to host hundreds of CPU-based models among customers like Zendesk, Veeva, and AT&T. Previously, you had limited options to deploy hundreds of deep learning models that needed accelerated compute with GPUs. On Oct 25, 2022, we announce MME support for GPU. Now you can deploy thousands of deep learning models behind one SageMaker endpoint. MMEs can now run multiple models on a GPU core, share GPU instances behind an endpoint across multiple models, and dynamically load and unload models based on the incoming traffic. With this, you can significantly save cost and achieve the best price performance.
 
